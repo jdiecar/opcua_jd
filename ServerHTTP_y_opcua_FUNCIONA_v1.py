@@ -15,7 +15,7 @@ print(conf['PLC']['PORT'])
 print(conf['PLC']['IP'])
 print(conf['OPIL']['IP'])
 print(conf['OPIL']['PORT'])
-
+print('prueba para sourcetree')
     
 
 client = Client("opc.tcp://192.168.250.1:4840") #empezar la sesion OPC-UA sabiendo la IP del servidor
