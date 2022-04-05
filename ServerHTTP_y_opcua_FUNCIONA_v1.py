@@ -9,7 +9,7 @@ with open("Configuration.yml") as fichero:
     conf=yaml.load(fichero)
 
 #print(conf)
-
+-+
 print(conf['PLC']['IP'])
 print(conf['PLC']['PORT'])
 print(conf['PLC']['IP'])
@@ -53,7 +53,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             'method': self.command,
             'path': self.path=='/v2',
             'real_path': parsed_path.query,
-            'query': parsed_path.query,
+                 'query': parsed_path.query,
             'request_version': self.request_version,
             'protocol_version': self.protocol_version
             
